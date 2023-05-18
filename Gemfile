@@ -16,6 +16,8 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "github-pages-health-check", "~> 1.18", ">= 1.18.1"
+  gem 'sass', '~> 3.7', '>= 3.7.4'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
