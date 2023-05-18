@@ -3,6 +3,10 @@ GEM
   specs:
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
     dnsruby (1.70.0)
@@ -13,6 +17,7 @@ GEM
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
+    execjs (2.8.1)
     faraday (2.7.4)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
@@ -45,8 +50,13 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-coffeescript (2.0.0)
+      coffee-script (~> 2.2)
+      coffee-script-source (~> 1.12)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-gist (1.5.0)
+      octokit (~> 4.2)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
@@ -108,7 +118,9 @@ DEPENDENCIES
   github-pages-health-check (~> 1.18, >= 1.18.1)
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.2)
+  jekyll-coffeescript
   jekyll-feed (~> 0.12)
+  jekyll-gist
   minima (~> 2.5)
   sass (~> 3.7, >= 3.7.4)
   tzinfo (>= 1, < 3)

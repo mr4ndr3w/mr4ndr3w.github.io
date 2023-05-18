@@ -29,6 +29,8 @@ linkedin_username: mr4ndr3w
 github_username:  mr4ndr3w
 instagram_username: mr.and.rew
 
+sass:
+  quiet_deps: true
 # Build settings
 theme: minima
 plugins:
