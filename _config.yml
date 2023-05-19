@@ -35,6 +35,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-coffeescript
   - jekyll-gist
+  - jekyll-sitemap
   - sass
 
 
@@ -44,6 +45,25 @@ defaults:
       path: "assets/img"
     values:
       image: true
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+
+collections:
+  authors:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
