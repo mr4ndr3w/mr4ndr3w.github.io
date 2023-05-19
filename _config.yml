@@ -20,7 +20,7 @@
 
 title: MR4NDR3W blog
 description: >- # this means to ignore newlines until "baseurl:"
-  <script>alert("A place where we can talk about security");<script>
+  &#60;script&#62;alert(1)&#60;/script&#62;
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mr4ndr3w.github.io" 
 linkedin_username: mr4ndr3w
@@ -35,7 +35,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-coffeescript
   - jekyll-gist
-  - sass
 
 
 # Exclude from processing.
