@@ -2,5 +2,5 @@
 layout: default
 title: About
 ---
-<h1 class="color3">About page</h1>
+<h1>About page</h1>
 
