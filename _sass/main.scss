@@ -5,6 +5,10 @@ html {
   background-image: linear-gradient(to top right , rgb(51, 51, 153) 0%, rgb(102, 0, 204) 100%);
 }
 
+body{
+  margin: 0;
+}
+
 nav {
   max-width: auto;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
