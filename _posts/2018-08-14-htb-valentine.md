@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTB{ Valentine }"
+title: HTB{Valentine}
 date: 2018-08-14 00:00:00 +0300
 author: snovvcrash
 tags: [write-up, hackthebox, machine, linux, heartbleed, tmux, dirtycow]
