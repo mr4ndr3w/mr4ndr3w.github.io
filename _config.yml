@@ -35,10 +35,10 @@ plugins:
 
 
 
-twitter_username:   snovvcrash
-github_username:    snovvcrash
-mastodon_username:  snovvcrash
-keybase_username:   snovvcrash
+twitter_username:   mr4ndr3w
+github_username:    mr4ndr3w
+mastodon_username:  mr4ndr3w
+keybase_username:   mr4ndr3w
 
 baseurl:            ""
 permalink:          /:year/:month/:day/:title:output_ext
