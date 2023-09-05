@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for page in site.posts -%}
+      <li class="post-list-li">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ page.date | date: date_format }}</span>
+        <span class="post-meta">• </span>
+        <span class="post-meta time">{{ page.content | number_of_words | divided_by:201 }} minutes to read </span>
+        <h3 class="post-list-h3">
+          <a class="post-link" href="{{ page.url | relative_url }}">
+            {{ page.title | escape }}
+          </a>
+        </h3>
+        {%- include taglist.html -%}
+        {%- if site.show_excerpts -%}
+          {{ page.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>
