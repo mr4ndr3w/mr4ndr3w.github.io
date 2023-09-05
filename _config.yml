@@ -1,7 +1,8 @@
 title: mr4ndr3w@whoami:~$ _
 subtitle: Have a nice time
 description: whoami
-author: mr4ndr3w
+author: 
+  name: mr4ndr3w
 
 url: "https://mr4ndr3w.github.io" 
 
@@ -58,21 +59,7 @@ highlighter:  rouge
 # Google Analytics
 google_analytics:  UA-123831726-1
 
-# Disqus comments
-#disqus:
-#  shortname:  snovvcrash-github-io
 
 # Page locations
 tag_page:  /tags.html
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
