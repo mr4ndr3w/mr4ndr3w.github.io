@@ -5,6 +5,11 @@ author: mr4ndr3w
 tags: [write-up, hackthebox, machine, linux,]
 ---
 <!--cut-->
+
+* TOC
+{:toc}
+
+
 ### USER:
 
 Scan [IP]:
