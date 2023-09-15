@@ -10,6 +10,18 @@ $grey-color-light:  #595959;  // for the border-top separators, table titles fil
 $grey-color-dark:   #a6a6a6;  // such as the site title in the header
 $content-width:       850px;
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+ }
+ 
+ 
+
+.root {
+  height: 100%;
+}
+
 .highlight {
   border-radius: 3px;
   background:    #eef;
@@ -22,7 +34,7 @@ $content-width:       850px;
 }
 
 code {
-  color: #080808;
+  color: #96ACB7;
 }
 
 @import "minima";
