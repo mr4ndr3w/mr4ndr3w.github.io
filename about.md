@@ -51,5 +51,4 @@ information published on the pages of this blog.
 <p align="left">
   <a href="mailto:shakhmut.andrew@gmail.com"><img src="https://img.shields.io/badge/-ProtonMail-8B89CC?style=for-the-badge&logo=ProtonMail&logoColor=white" alt="ProtonMail" /></a>
   <a href="https://t.me/mr_and_rew"><img src="https://img.shields.io/badge/-Telegram-white?style=for-the-badge&logo=Telegram" alt="Telegram" /></a>
-  <a href="https://discordapp.com/users/"><img src="https://img.shields.io/badge/-snovvcrash%237064-2F3136?style=for-the-badge&logo=Discord" alt="Discord" /></a>
 </p>
