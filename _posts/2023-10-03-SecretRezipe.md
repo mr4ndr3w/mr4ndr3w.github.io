@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTB{PC}
+title: HTB{SecretRezipe}
 author: mr4ndr3w
 tags: [write-up, hackthebox, challenge, zip, bkcrack]
 ---
