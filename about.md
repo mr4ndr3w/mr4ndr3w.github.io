@@ -8,12 +8,9 @@ permalink: /about
 {:style="font-size: 22px"}
 
 <p align="left">
-  <img src="/assets/images/about/ceh.png" width="110px" alt="CEH" />
   <img src="/assets/images/about/oscp.png" width="110px" alt="OSCP" />
-  <img src="/assets/images/about/osep.png" width="110px" alt="OSEP" />
-  <img src="/assets/images/about/crto.png" width="110px" alt="CRTO" />
-  <img src="/assets/images/about/crto2.png" width="110px" alt="CRTO2" />
-  <img src="/assets/images/about/c2dev.png" width="110px" alt="C2Dev" />
+  <img src="/assets/images/about/osep.png" width="110px" alt="OSWE" />
+  <img src="/assets/images/about/osep.png" width="110px" alt="AWS" />
 </p>
 
 [![HackTheBox-Badge](http://www.hackthebox.eu/badge/image/79754)](https://www.hackthebox.eu/home/users/profile/79754)
